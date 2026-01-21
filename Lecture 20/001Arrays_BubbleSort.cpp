@@ -14,10 +14,10 @@ int main(){
                 flag = false; //array is not sorted
             }
 
-        for(int i = 0; i<n; i++){
-        cout<<arr[i]<<" ";
-        }
-        cout<<endl;
+        // for(int i = 0; i<n; i++){
+        // cout<<arr[i]<<" ";
+        // }
+        // cout<<endl;
 
         }
         if(flag){

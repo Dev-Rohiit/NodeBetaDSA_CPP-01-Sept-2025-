@@ -60,12 +60,12 @@ int main() {
 
 	// // extracting a substring from a string using substr()
 
-	// string str6 = "helloworld";
-	// string subString = str6.substr(4);
-	// cout << subString << endl;
+	string str6 = "helloworld";
+	string subString = str6.substr(4);
+	cout << subString << endl;
 
-	// subString = str6.substr(4, 2);
-	// cout << subString << endl;
+	subString = str6.substr(4, 2);
+	cout << subString << endl;
 
 	// // converting a string into char array
 
@@ -82,13 +82,13 @@ int main() {
 	// string st(10, 'b');
 	// cout << st << endl;
 
-	char ch = 'x';
-	string str10(1, ch);
-	cout << str10 << endl;
+	// char ch = 'x';
+	// string str10(1, ch);
+	// cout << str10 << endl;
 
 	// reversing a string using reverse()
 
-	string str9 = "coding blocks";
+	// string str9 = "coding blocks";
 
 	// .end() returns iterator/pointer to the char. 
 	// after the last char.
@@ -96,9 +96,9 @@ int main() {
 	// .begin() returns iterator/pointer to the char.
 	// at the 0th index
 
-	reverse(str9.begin(), str9.begin()+6); // [start, end)
+	// reverse(str9.begin(), str9.begin()+6); // [start, end)
 	
-	cout << str9 << endl;
+	// cout << str9 << endl;
 
 	return 0;
 }
